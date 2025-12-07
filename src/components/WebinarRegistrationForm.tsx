@@ -135,8 +135,9 @@ const WebinarRegistrationForm = () => {
           Pendaftaran Berhasil!
         </h3>
         <p className="text-gray-300 mb-6">
-          Terima kasih <strong>{formData.name}</strong>! Kami telah menerima
-          pendaftaran Anda.
+          Terima kasih <strong>{formData.name}</strong>! Tim kami akan kirim
+          jadwal Prompting Class, Kuliah AI, dan Cuan AI ke email serta WhatsApp
+          kamu.
         </p>
         <div className="bg-white/10 p-6 rounded-xl text-left">
           <h4 className="font-bold text-purple-300 mb-3">
@@ -161,7 +162,7 @@ const WebinarRegistrationForm = () => {
           <p className="text-sm text-purple-200">
             📅{" "}
             <strong>
-              Jadwal webinar akan dikirimkan via email dan WhatsApp dalam 24 jam
+              Jadwal 3 program akan dikirim via email dan WhatsApp dalam 24 jam
             </strong>
           </p>
           <p className="text-xs text-gray-400 mt-2">
@@ -180,10 +181,11 @@ const WebinarRegistrationForm = () => {
     >
       <div className="text-center mb-6">
         <h3 className="text-2xl font-bold text-white mb-2">
-          📝 Daftar Webinar Gratis
+          📝 Daftar Paket Program MelekAI
         </h3>
         <p className="text-gray-300 text-sm">
-          Isi form di bawah untuk mendaftar webinar prompting gratis
+          Isi data berikut untuk mengunci kursi di Prompting Class, Kuliah AI,
+          dan Cuan AI sekaligus
         </p>
       </div>
 
@@ -290,16 +292,18 @@ const WebinarRegistrationForm = () => {
           📅 Informasi Penting:
         </h4>
         <ul className="text-sm text-gray-300 space-y-1">
-          <li>• Webinar 100% GRATIS</li>
-          <li>• Jadwal akan diinfokan via email & WhatsApp</li>
-          <li>• Sertifikat digital disediakan</li>
-          <li>• Akses ke komunitas Discord eksklusif</li>
+          <li>
+            • Akses ke Prompting Class, Kuliah AI, dan Cuan AI dalam satu form
+          </li>
+          <li>• Semua sesi live + rekaman dikirim via email & WhatsApp</li>
+          <li>• Sertifikat digital & template siap pakai tersedia</li>
+          <li>• Komunitas Discord eksklusif + referal klien</li>
         </ul>
       </div>
 
       <p className="text-xs text-gray-500 text-center mt-4">
-        Dengan mendaftar, Anda menyetujui untuk menerima komunikasi terkait
-        webinar
+        Dengan mendaftar, Anda menyetujui menerima update seputar 3 program dan
+        komunitas MelekAI
       </p>
     </form>
   );
