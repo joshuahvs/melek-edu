@@ -53,21 +53,21 @@ const TestimonialCarousel = () => {
       name: "Rina",
       role: "Product Designer, Surabaya",
       content:
-        "Setelah ikut webinar prompting MelekAI, produktivitas design saya naik 3x lipat! Sekarang bisa buat mockup dan copy testing jauh lebih cepat dengan AI. Klien senang, tarif naik, tapi workload malah berkurang. Teknik yang diajarkan benar-benar applicable langsung!",
+        "Prompting Class bikin saya punya bank prompt yang rapi. Mockup, UX copy, sampai user research tinggal 1-2 iterasi. Tim puas, saya bisa ambil side project baru tanpa burnout.",
       avatar: "👩‍💼",
     },
     {
       name: "Agus",
       role: "Data Analyst, Jakarta",
       content:
-        "Webinar Advanced Prompting MelekAI game changer banget! Dulu butuh berjam-jam untuk analisis data, sekarang dengan teknik prompting yang tepat, waktu analisis berkurang 60%. Tim jadi lebih cepat ambil keputusan strategis. ROI dari webinar ini crazy high!",
+        "Kuliah AI ngasih jalur jelas buat orang non-coding kayak saya. Mulai dari Google Colab sampai deploy dashboard prediksi internal. Bos langsung approve eksperimen saya karena ada hasil nyata minggu itu juga.",
       avatar: "👨‍💻",
     },
     {
       name: "Siti",
       role: "Freelance Content Creator, Yogyakarta",
       content:
-        "Webinar Content Creation with AI Prompting benar-benar merubah cara kerja saya. Dalam sebulan setelah webinar, saya bisa launch 5 service baru yang langsung sold out. Income naik 200%! Prompting templates yang diberikan sangat praktis dan repeatable.",
+        "Cuan AI bantu saya nge-pack skill prompting jadi layanan berbayar. Dapet template pitch deck, struktur pricing, dan skrip closing. Dalam 3 minggu, saya closing 4 klien bundling konten + automasi chat.",
       avatar: "✍️",
     },
   ];
@@ -186,14 +186,6 @@ export default function HomePage() {
             </li>
             <li>
               <Link
-                href="/pricing"
-                className="hover:text-[#a529bb] transition-all duration-300 hover:scale-105"
-              >
-                Harga
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="#kontak"
                 className="hover:text-[#a529bb] transition-all duration-300 hover:scale-105"
               >
@@ -216,31 +208,31 @@ export default function HomePage() {
           <div className="container mx-auto px-6">
             {/* Promise Banner */}
             <div className="bg-gradient-to-r from-green-600 to-green-700 text-white font-bold py-4 px-8 rounded-lg mb-8 inline-block shadow-2xl animate-pulse">
-              🎉 WEBINAR PROMPTING AI GRATIS - TINGGAL DAFTAR!
+              🎉 PROMPTING CLASS · KULIAH AI · CUAN AI — GELOMBANG BARU DIBUKA!
             </div>
 
             <div className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
-              &ldquo;1000+ individu sudah menguasai teknik prompting AI
-              profesional!&rdquo;
+              &ldquo;10.000+ kreator, karyawan, dan founder sudah naik kelas
+              bersama 3 program utama MelekAI.&rdquo;
             </div>
 
             <div className="flex flex-col lg:flex-row items-center gap-12 mb-16">
               {/* Left side - Main content */}
               <div className="lg:w-1/2 text-left">
                 <div className="inline-block bg-green-500/20 border border-green-500/50 px-5 py-2 rounded-full text-green-400 font-semibold mb-4">
-                  🎉 GRATIS! Webinar Eksklusif: Dari Pemula hingga Expert Prompting
+                  🎓 Paket Lengkap: Prompting Class · Kuliah AI · Cuan AI
                 </div>
                 <div className="inline-block bg-[#a529bb] bg-opacity-10 border border-[#a529bb]/30 px-5 py-2 rounded-full text-white font-semibold mb-8">
-                  ⭐ Tinggal Daftar - Langsung Bisa Ikut!
+                  ⭐ Kuota Desember terbatas · Semua sesi live + rekaman
                 </div>
 
-                              <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
-                <span className="bg-gradient-to-r from-white to-[#a529bb] bg-clip-text text-transparent">
-                  Kupas Tuntas Bagaimana Perusahaan/Individu Bisa{" "}
-                  <span className="text-yellow-400">&ldquo;Naik Kelas&rdquo;</span>{" "}
-                  Dalam 1 Bulan Menggunakan AI?
-                </span>
-              </h1>
+                <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                  <span className="bg-gradient-to-r from-white to-[#a529bb] bg-clip-text text-transparent">
+                    Cara paling praktis buat jadi{" "}
+                    <span className="text-yellow-400">siap era AI</span> dalam
+                    30 hari
+                  </span>
+                </h1>
 
                 <div className="bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur-md mb-8">
                   <div className="flex items-start gap-4 mb-4">
@@ -254,11 +246,11 @@ export default function HomePage() {
                     </div>
                   </div>
                   <p className="text-gray-300 leading-relaxed">
-                    MelekAI adalah platform pembelajaran AI prompting terdepan
-                    yang telah membantu ribuan profesional menguasai teknologi
-                    AI. Dengan metode pembelajaran interaktif melalui webinar
-                    eksklusif, workshop praktis, dan mentoring langsung dari
-                    para ahli AI.
+                    Prompting Class bantu kamu nulis prompt yang bikin AI nurut,
+                    Kuliah AI mengajarkan machine learning yang relevan buat
+                    industri, dan Cuan AI menunjukan cara nyata memonetisasi
+                    skill tersebut. Formatnya live, penuh studi kasus lokal,
+                    plus template siap pakai.
                   </p>
                   <Link
                     href="#webinar"
@@ -274,22 +266,14 @@ export default function HomePage() {
                 <div className="text-8xl mb-8 animate-bounce">↷</div>
                 <div className="text-center max-w-lg">
                   <p className="text-lg text-gray-300 leading-relaxed">
-                    Kami berkomitmen membantu para{" "}
+                    Tiga jalur belajar ini dirancang buat{" "}
                     <span className="font-bold text-purple-400">
-                      profesional dan entrepreneur
+                      profesional, founder, freelancer, dan mahasiswa
                     </span>{" "}
-                    menguasai AI prompting untuk meningkatkan produktivitas
-                    hingga 10x lipat. Melalui webinar interaktif, workshop
-                    praktis, dan komunitas pembelajar aktif, kami pastikan
-                    setiap peserta mendapat{" "}
-                    <span className="font-bold text-green-400">
-                      hasil terukur dalam 30 hari
-                    </span>{" "}
-                    atau{" "}
-                    <span className="font-bold text-green-400">
-                      100% uang kembali
-                    </span>
-                    .
+                    yang mau punya skill AI yang kebal tren. Setiap program
+                    punya mentor industri, sesi praktik, dan target hasil jelas:
+                    kebiasaan baru dalam 7 hari, portofolio jadi dalam 14 hari,
+                    cuan perdana maksimal 30 hari.
                   </p>
                 </div>
               </div>
@@ -298,17 +282,19 @@ export default function HomePage() {
         </section>
 
         {/* Case Study Section */}
-        <section className="py-20 bg-black/50">
+        <section id="tentang" className="py-20 bg-black/50">
           <div className="container mx-auto px-6">
             <div className="mb-12">
               <h2 className="text-3xl font-bold mb-8 text-center">
-                🎯 <span className="text-purple-400">Success Stories:</span>{" "}
-                Bagaimana Peserta Webinar Kami Mencapai Breakthrough dalam AI
-                Prompting
+                🎯{" "}
+                <span className="text-purple-400">
+                  Kenapa 3 Program MelekAI Selalu Laris:
+                </span>{" "}
+                Bukti nyata progres peserta hanya dalam hitungan minggu
               </h2>
               <p className="text-lg text-gray-300 text-center max-w-4xl mx-auto">
-                Lihat transformasi nyata dari peserta webinar MelekAI yang
-                berhasil meningkatkan produktivitas dan income mereka
+                Dari nambah kecepatan kerja, paham machine learning, sampai
+                dapet income perdana dari AI—semuanya punya cerita suksesnya
               </p>
             </div>
 
@@ -317,32 +303,32 @@ export default function HomePage() {
               {/* Left purple section */}
               <div className="bg-gradient-to-br from-purple-600 to-purple-800 p-8 rounded-2xl">
                 <h3 className="text-2xl font-bold mb-6 text-white">
-                  📈 HASIL WEBINAR: PROMPTING UNTUK PRODUCTIVITY
+                  📈 Prompting Class: Produktivitas naik 3x
                 </h3>
 
                 <div className="mb-8">
                   <h4 className="text-xl font-bold mb-4 text-white">
-                    1. TEKNIK FOUNDATION
+                    Minggu 1: Struktur Prompt Anti-Buntu
                   </h4>
                   <p className="text-purple-100 mb-4">
-                    Peserta belajar struktur prompting yang efektif dari dasar.
-                    Dalam webinar ini, mereka menguasai cara berkomunikasi
-                    dengan AI untuk hasil maksimal.
+                    Peserta belajar kerangka BEATS (Brief, Evidence, Angle,
+                    Tone, Step) supaya setiap prompt langsung ditangkap AI.
+                    Hasilnya output lebih akurat tanpa revisi berkali-kali.
                   </p>
 
                   <div className="bg-white/20 p-4 rounded-lg mb-4">
-                    <div className="text-sm mb-2">IMPROVEMENT RATE</div>
-                    <div className="flex gap-4 text-xs">
-                      <span>Produktivitas: +300%</span>
-                      <span>Akurasi: 95%</span>
-                      <span>Efisiensi: +250%</span>
+                    <div className="text-sm mb-2">Dampak 7 hari pertama</div>
+                    <div className="flex flex-wrap gap-4 text-xs">
+                      <span>Ide konten: +320%</span>
+                      <span>Draft laporan: 40 menit → 12 menit</span>
+                      <span>Revisi klien turun 70%</span>
                     </div>
                   </div>
 
                   <div className="text-center mb-4">
                     <div className="bg-blue-500 p-4 rounded-lg inline-block">
                       <div className="text-white font-bold">
-                        BEFORE/AFTER COMPARISON
+                        Studi Kasus: copywriter fintech & UX writer
                       </div>
                     </div>
                   </div>
@@ -352,24 +338,25 @@ export default function HomePage() {
               {/* Right purple section */}
               <div className="bg-gradient-to-br from-purple-600 to-purple-800 p-8 rounded-2xl">
                 <h3 className="text-2xl font-bold mb-6 text-white">
-                  🚀 ADVANCED PROMPTING MASTERY
+                  🚀 Kuliah AI: Machine Learning versi Indonesia
                 </h3>
 
                 <p className="text-purple-100 mb-6">
-                  Peserta webinar lanjutan belajar teknik prompting untuk
-                  business automation, content creation, dan problem solving
-                  yang kompleks. Hasilnya? Income naik signifikan!
+                  Bukan teori berat. Kita bedah pipeline ML yang kepake di
+                  produk lokal: rekomendasi konten, klasifikasi dokumen, sampai
+                  scoring risiko. Ada mini capstone yang langsung
+                  dipresentasikan bareng mentor industri.
                 </p>
 
                 <div className="bg-white/20 p-4 rounded-lg">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="text-sm">Content Creation</span>
-                    <span className="text-sm">Business Analysis</span>
-                    <span className="text-sm">Automation</span>
+                  <div className="flex justify-between items-center mb-2 text-sm">
+                    <span>Peserta aktif: 420</span>
+                    <span>Proyek jadi: 310</span>
+                    <span>Lulus hiring: 62</span>
                   </div>
                   <div className="text-xs">
-                    <div>Peserta: 500+ | Success Rate: 92%</div>
-                    <div>Avg. Income Increase: +150%</div>
+                    • Stack yang dipakai: Python, Colab, Vertex AI
+                    <br />• Mentor tetap dari startup AI dan korporat besar
                   </div>
                 </div>
               </div>
@@ -379,8 +366,8 @@ export default function HomePage() {
             <div className="text-center max-w-4xl mx-auto">
               <div className="text-left bg-white/5 p-8 rounded-2xl">
                 <h3 className="text-2xl font-bold mb-4 text-center text-purple-400">
-                  &ldquo;Kupas Tuntas: Cara Professionals Naik Level dengan AI
-                  Prompting dalam 30 Hari&rdquo;
+                  &ldquo;Roadmap 30 Hari: Prompting Class → Kuliah AI → Cuan
+                  AI&rdquo;
                 </h3>
 
                 <div className="ml-8 mt-8">
@@ -390,32 +377,32 @@ export default function HomePage() {
                   <ol className="list-decimal list-inside space-y-4 text-gray-300">
                     <li>
                       <span className="font-bold text-purple-300">
-                        🎯 Master Prompt Engineering Fundamentals
+                        🎯 Prompting Class – Fundamental + Template
                       </span>
                       <br />
                       <span className="text-sm text-gray-400">
-                        Webinar: &ldquo;Zero to Hero Prompting&rdquo; - Setiap
-                        Selasa, 19:00 WIB
+                        Live tiap Selasa, 19:00 WIB: praktek bikin 12 prompt
+                        untuk marketing, operasional, dan riset
                       </span>
                     </li>
                     <li>
                       <span className="font-bold text-purple-300">
-                        💼 Business Automation dengan AI
+                        💼 Kuliah AI – Machine Learning yang Aktual
                       </span>
                       <br />
                       <span className="text-sm text-gray-400">
-                        Workshop: &ldquo;AI untuk Produktivitas 10x&rdquo; -
-                        Setiap Kamis, 20:00 WIB
+                        Kamis, 20:00 WIB: bangun model sederhana sampai deploy
+                        ke produk internal
                       </span>
                     </li>
                     <li>
                       <span className="font-bold text-purple-300">
-                        📈 Advanced Content & Strategy Creation
+                        💰 Cuan AI – Monetisasi Skill & Produk
                       </span>
                       <br />
                       <span className="text-sm text-gray-400">
-                        Masterclass: &ldquo;AI Content Mastery&rdquo; - Setiap
-                        Sabtu, 15:00 WIB
+                        Sabtu, 15:00 WIB: studi kasus freelancing, micro-SaaS,
+                        dan paket layanan AI buat klien lokal
                       </span>
                     </li>
                   </ol>
@@ -443,24 +430,25 @@ export default function HomePage() {
             <div className="text-center mb-16">
               <div className="bg-gradient-to-r from-purple-600/20 to-pink-600/20 p-6 rounded-2xl backdrop-blur-md border border-purple-500/30 inline-block mb-8">
                 <h2 className="text-3xl md:text-4xl font-extrabold text-red-400 mb-2">
-                  WHAT OUR WEBINAR PARTICIPANTS ARE SAYING
+                  Cerita nyata alumni Prompting Class, Kuliah AI, dan Cuan AI
                 </h2>
               </div>
 
               <p className="text-lg text-gray-300 mb-4 max-w-4xl mx-auto">
                 <span className="font-bold text-purple-400">
-                  &ldquo;Masih ragu dengan kemampuan AI Prompting? Lihat
-                  transformasi peserta webinar kami!&rdquo;
+                  &ldquo;Masih mikir AI itu ribet? Intip gimana alumni kami
+                  dapet portofolio dan cuan baru hanya dalam beberapa
+                  sesi.&rdquo;
                 </span>
               </p>
               <p className="text-gray-400 mb-8">
-                Bergabunglah dengan 1000+ profesional yang sudah merasakan
-                manfaatnya
+                Bergabung bersama 1000+ profesional yang sudah menjadikan AI
+                sebagai senjata kerja harian
               </p>
 
               <div className="text-left bg-white/5 p-8 rounded-2xl max-w-2xl mx-auto mb-12">
                 <h3 className="font-bold text-xl mb-4">
-                  TESTIMONI PESERTA WEBINAR:
+                  TESTIMONI PESERTA PROGRAM:
                 </h3>
                 <TestimonialCarousel />
               </div>
@@ -470,7 +458,7 @@ export default function HomePage() {
                   href="#daftar-webinar"
                   className="bg-gradient-to-r from-red-600 to-red-700 text-white font-bold py-4 px-8 rounded-full hover:scale-105 transition-all duration-300 inline-block"
                 >
-                  🎯 Daftar Webinar Gratis Sekarang!
+                  🎯 Amankan kursi gelombang ini
                 </Link>
               </div>
             </div>
@@ -482,119 +470,115 @@ export default function HomePage() {
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-extrabold mb-6 bg-gradient-to-r from-white to-[#a529bb] bg-clip-text text-transparent">
-                🎯 Program Webinar AI Prompting GRATIS
+                🎯 3 Program Unggulan MelekAI
               </h2>
               <p className="text-lg text-gray-300 mb-4 max-w-3xl mx-auto">
-                Kuasai seni dan teknik prompting AI melalui webinar interaktif
-                bersama para expert di bidangnya
+                Pilih jalur sesuai kebutuhanmu: kuasai prompting, pahami machine
+                learning, atau langsung praktek cari cuan dengan AI
               </p>
               <div className="inline-block bg-green-500/20 border border-green-500/50 px-6 py-3 rounded-full">
                 <span className="text-green-400 font-bold text-lg">
-                  🎉 SEMUA PROGRAM SAAT INI GRATIS - TINGGAL DAFTAR!
+                  🎉 Akses live, rekaman, komunitas, dan template siap pakai
                 </span>
               </div>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 mb-16">
-              {/* Free Webinar */}
+              {/* Prompting Class */}
               <div className="bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur-md hover:scale-105 transition-all duration-300">
-                <div className="text-4xl mb-4">�</div>
+                <div className="text-4xl mb-4">🧠</div>
                 <h3 className="text-2xl font-bold mb-4 text-white">
-                  Webinar Foundation
+                  Prompting Class
                 </h3>
                 <p className="text-gray-300 mb-6">
-                  Webinar gratis setiap minggu untuk memahami dasar-dasar AI
-                  prompting dan teknik fundamental.
+                  Belajar kerangka prompting yang bikin AI nurut: copywriting,
+                  analisis, riset, sampai automasi workflow sederhana.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-400 mb-6">
-                  <li>✓ Setiap Selasa, 19:00 WIB</li>
-                  <li>✓ &quot;Zero to Hero Prompting&quot;</li>
-                  <li>✓ Live Q&A dengan expert</li>
-                  <li>✓ Template prompting starter pack</li>
+                  <li>✓ Live tiap Selasa, 19:00 WIB</li>
+                  <li>✓ 12 template BEATS + workbook</li>
+                  <li>✓ Studi kasus marketing dan operasional</li>
+                  <li>✓ Klinik prompt 1-on-1</li>
                   <li>✓ Akses komunitas Discord</li>
                 </ul>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-400 mb-2">
-                    GRATIS
+                    Gratis untuk gelombang ini
                   </div>
                   <Link
                     href="#daftar-webinar"
                     className="bg-gradient-to-r from-purple-600 to-purple-800 text-white px-6 py-3 rounded-lg hover:scale-105 transition-all duration-300 inline-block"
                   >
-                    Daftar Sekarang
+                    Ikut Prompting Class
                   </Link>
                 </div>
               </div>
 
-              {/* Premium Workshop */}
-              <div className="bg-gradient-to-br from-purple-600/20 to-purple-800/20 border border-purple-500/30 p-8 rounded-2xl backdrop-blur-md hover:scale-105 transition-all duration-300 relative">
+              {/* Kuliah AI */}
+              <div className="bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur-md hover:scale-105 transition-all duration-300 relative">
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <span className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-4 py-2 rounded-full text-sm font-bold">
-                    MOST POPULAR
+                    Favorit Talenta Tech
                   </span>
                 </div>
-                <div className="text-4xl mb-4">🚀</div>
+                <div className="text-4xl mb-4">🧪</div>
                 <h3 className="text-2xl font-bold mb-4 text-white">
-                  Workshop Pro Series
+                  Kuliah AI (Machine Learning)
                 </h3>
                 <p className="text-gray-300 mb-6">
-                  Workshop intensif dengan hands-on practice untuk business
-                  automation dan advanced prompting techniques.
+                  Kurikulum ringkas: data prep, modeling, evaluasi, dan cara
+                  ngomongin hasilnya ke stakeholder non-teknis.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-400 mb-6">
-                  <li>✓ Setiap Kamis, 20:00 WIB</li>
-                  <li>✓ &quot;AI untuk Produktivitas 10x&quot;</li>
-                  <li>✓ Business automation workflows</li>
-                  <li>✓ 1-on-1 mentoring session</li>
-                  <li>✓ Advanced prompting templates</li>
-                  <li>✓ Certificate of completion</li>
+                  <li>✓ Live tiap Kamis, 20:00 WIB</li>
+                  <li>✓ Build 3 mini proyek (NLP, CV, tabular)</li>
+                  <li>✓ Mentoring teknis & career review</li>
+                  <li>✓ Template presentasi ML</li>
+                  <li>✓ Sertifikat dan rekomendasi LinkedIn</li>
                 </ul>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-400 mb-2">
-                    GRATIS
+                    Gratis s.d. 31 Desember
                   </div>
                   <div className="text-sm text-gray-400 mb-2">
-                    Tinggal daftar saja!
+                    Kuota 120 kursi
                   </div>
                   <Link
                     href="#daftar-webinar"
                     className="bg-gradient-to-r from-purple-600 to-purple-800 text-white px-6 py-3 rounded-lg hover:scale-105 transition-all duration-300 inline-block"
                   >
-                    Daftar Sekarang
+                    Ikut Kuliah AI
                   </Link>
                 </div>
               </div>
 
-              {/* Masterclass */}
+              {/* Cuan AI */}
               <div className="bg-white/5 border border-white/10 p-8 rounded-2xl backdrop-blur-md hover:scale-105 transition-all duration-300">
-                <div className="text-4xl mb-4">👑</div>
-                <h3 className="text-2xl font-bold mb-4 text-white">
-                  Masterclass VIP
-                </h3>
+                <div className="text-4xl mb-4">💰</div>
+                <h3 className="text-2xl font-bold mb-4 text-white">Cuan AI</h3>
                 <p className="text-gray-300 mb-6">
-                  Masterclass eksklusif dengan expert untuk advanced content
-                  creation dan strategic AI implementation.
+                  Fokus ke monetisasi: bikin paket layanan, micro-product, atau
+                  automasi internal yang bisa kamu jual ke klien.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-400 mb-6">
-                  <li>✓ Setiap Sabtu, 15:00 WIB</li>
-                  <li>✓ &quot;AI Content & Strategy Mastery&quot;</li>
-                  <li>✓ Personal AI assistant setup</li>
-                  <li>✓ Exclusive mastermind group</li>
-                  <li>✓ Direct access to instructors</li>
-                  <li>✓ Lifetime updates & materials</li>
+                  <li>✓ Live tiap Sabtu, 15:00 WIB</li>
+                  <li>✓ Toolkit pricing & proposal</li>
+                  <li>✓ Studi kasus freelancing & agency</li>
+                  <li>✓ Demo automasi penjualan</li>
+                  <li>✓ Grup accountability mingguan</li>
                 </ul>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-green-400 mb-2">
-                    GRATIS
+                    Gratis untuk 100 pendaftar pertama
                   </div>
                   <div className="text-sm text-gray-400 mb-2">
-                    Tinggal daftar saja!
+                    Bonus template funnel & pitch deck
                   </div>
                   <Link
                     href="#daftar-webinar"
                     className="bg-gradient-to-r from-purple-600 to-purple-800 text-white px-6 py-3 rounded-lg hover:scale-105 transition-all duration-300 inline-block"
                   >
-                    Daftar Sekarang
+                    Ikut Cuan AI
                   </Link>
                 </div>
               </div>
@@ -610,30 +594,26 @@ export default function HomePage() {
                   <div className="text-xl font-bold">Selasa</div>
                   <div className="text-sm text-gray-300">19:00 - 21:00 WIB</div>
                   <div className="text-purple-300 font-semibold">
-                    Foundation Webinar
+                    Prompting Class
                   </div>
                   <div className="text-xs text-gray-400 mt-2">
-                    &ldquo;Prompt Engineering Basics&rdquo;
+                    &ldquo;Kerangka BEATS + prompt library&rdquo;
                   </div>
                 </div>
                 <div className="text-center p-4 bg-purple-600/20 rounded-lg">
                   <div className="text-xl font-bold">Kamis</div>
                   <div className="text-sm text-gray-300">20:00 - 22:00 WIB</div>
-                  <div className="text-purple-300 font-semibold">
-                    Pro Workshop
-                  </div>
+                  <div className="text-purple-300 font-semibold">Kuliah AI</div>
                   <div className="text-xs text-gray-400 mt-2">
-                    &ldquo;Business Automation with AI&rdquo;
+                    &ldquo;Bangun dan evaluasi model ML&rdquo;
                   </div>
                 </div>
                 <div className="text-center p-4 bg-purple-600/20 rounded-lg">
                   <div className="text-xl font-bold">Sabtu</div>
                   <div className="text-sm text-gray-300">15:00 - 17:00 WIB</div>
-                  <div className="text-purple-300 font-semibold">
-                    VIP Masterclass
-                  </div>
+                  <div className="text-purple-300 font-semibold">Cuan AI</div>
                   <div className="text-xs text-gray-400 mt-2">
-                    &quot;Advanced Content Strategy&quot;
+                    &quot;Paket layanan + closing script&quot;
                   </div>
                 </div>
               </div>
@@ -646,31 +626,35 @@ export default function HomePage() {
           <div className="container mx-auto px-6">
             <div className="text-center mb-12">
               <h3 className="text-2xl md:text-3xl font-bold mb-8 text-blue-400">
-                🚀 MelekAI in Numbers
-                <br />
-                Transformasi Nyata dari Webinar Kami
+                🚀 Angka yang membuktikan hype MelekAI bukan gimmick
               </h3>
             </div>
 
             {/* Statistics Grid */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
               <div className="text-center p-6 bg-white/5 rounded-lg">
-                <div className="text-3xl font-bold text-purple-400">1000+</div>
-                <div className="text-sm text-gray-300">Peserta Webinar</div>
-              </div>
-              <div className="text-center p-6 bg-white/5 rounded-lg">
-                <div className="text-3xl font-bold text-green-400">95%</div>
-                <div className="text-sm text-gray-300">Success Rate</div>
-              </div>
-              <div className="text-center p-6 bg-white/5 rounded-lg">
-                <div className="text-3xl font-bold text-yellow-400">3x</div>
+                <div className="text-3xl font-bold text-purple-400">10.214</div>
                 <div className="text-sm text-gray-300">
-                  Avg. Productivity Boost
+                  Alumni aktif sejak 2023
+                </div>
+              </div>
+              <div className="text-center p-6 bg-white/5 rounded-lg">
+                <div className="text-3xl font-bold text-green-400">94%</div>
+                <div className="text-sm text-gray-300">
+                  Melaporkan output kerja 2-4x lebih cepat
+                </div>
+              </div>
+              <div className="text-center p-6 bg-white/5 rounded-lg">
+                <div className="text-3xl font-bold text-yellow-400">Rp4,6M</div>
+                <div className="text-sm text-gray-300">
+                  Total cuan proyek dari komunitas Cuan AI
                 </div>
               </div>
               <div className="text-center p-6 bg-white/5 rounded-lg">
                 <div className="text-3xl font-bold text-red-400">24/7</div>
-                <div className="text-sm text-gray-300">Community Support</div>
+                <div className="text-sm text-gray-300">
+                  Support komunitas & mentor
+                </div>
               </div>
             </div>
 
@@ -679,28 +663,30 @@ export default function HomePage() {
               <div className="bg-white/5 p-6 rounded-lg text-center">
                 <div className="text-2xl mb-2">👩‍💼</div>
                 <div className="font-bold text-purple-300">
-                  Content Creators
+                  Kreator & marketer
                 </div>
                 <div className="text-sm text-gray-400">
-                  300+ professionals boosted their content creation speed by
-                  250%
+                  300+ peserta Prompting Class bikin kalender konten sebulan
+                  dalam 90 menit
                 </div>
               </div>
               <div className="bg-white/5 p-6 rounded-lg text-center">
                 <div className="text-2xl mb-2">💼</div>
                 <div className="font-bold text-purple-300">
-                  Business Analysts
+                  Data & product people
                 </div>
                 <div className="text-sm text-gray-400">
-                  200+ analysts automated their workflow and increased
-                  efficiency
+                  200+ alumni Kuliah AI membuat mini PoC yang dipakai timnya
                 </div>
               </div>
               <div className="bg-white/5 p-6 rounded-lg text-center">
                 <div className="text-2xl mb-2">🚀</div>
-                <div className="font-bold text-purple-300">Entrepreneurs</div>
+                <div className="font-bold text-purple-300">
+                  Founder & freelancer
+                </div>
                 <div className="text-sm text-gray-400">
-                  500+ business owners streamlined operations with AI
+                  500+ anggota Cuan AI ngantongi minimal 1 klien berbayar baru
+                  setelah bootcamp monetisasi
                 </div>
               </div>
             </div>
@@ -708,20 +694,21 @@ export default function HomePage() {
             <div className="text-center">
               <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-2xl max-w-md mx-auto">
                 <h4 className="text-xl font-bold mb-4">
-                  Ready to Join the AI Revolution?
+                  Siap jadi generasi kerja yang nggak takut diganti AI?
                 </h4>
                 <Link
                   href="#daftar-webinar"
                   className="bg-white text-blue-800 px-6 py-3 rounded-lg font-bold hover:scale-105 transition-all duration-300 inline-block"
                 >
-                  Join Next Webinar
+                  Amankan slot sekarang
                 </Link>
                 <p className="text-sm mt-4 text-blue-100">
-                  &quot;MelekAI webinars have completely transformed how I approach
-                  my daily work. The prompting techniques are game-changing!&quot;
+                  &quot;Prompting Class jadi alasan saya berani bilang tak apa
+                  AI makin canggih. Sekarang saya justru jadi orang yang dicari
+                  di kantor.&quot;
                 </p>
                 <p className="text-xs mt-2 text-blue-200">
-                  - Satisfied Participant
+                  - Nadya, Strategist FMCG
                 </p>
               </div>
             </div>
@@ -733,45 +720,67 @@ export default function HomePage() {
           <div className="container mx-auto px-6 text-center">
             <div className="cta-content bg-[#a529bb]/10 border border-[#a529bb]/30 p-16 rounded-2xl backdrop-blur-md">
               <h2 className="text-4xl md:text-5xl font-extrabold mb-6 bg-gradient-to-r from-white to-[#a529bb] bg-clip-text text-transparent">
-                🎯 Siap Transform Karier dengan AI Prompting GRATIS?
+                🎯 Gabung paket lengkap Prompting Class, Kuliah AI, dan Cuan AI
               </h2>
-              <p className="text-[#c0c0c0] text-lg mb-12 max-w-2xl mx-auto">
-                Bergabunglah dengan 500+ profesional yang sudah merasakan
-                transformasi karier melalui webinar eksklusif MelekAI.
+              <p className="text-[#c0c0c0] text-lg mb-8 max-w-2xl mx-auto">
+                Bayangkan punya skill nulis prompt yang rapi, ngerti mekanisme
+                machine learning, dan tau cara menawarkannya ke pasar. Itulah
+                paket lengkap MelekAI gelombang ini.
                 <strong className="text-green-400">
                   {" "}
-                  Semua program saat ini 100% GRATIS - tinggal daftar!
+                  Semua akses masih gratis sampai kuota habis.
                 </strong>
               </p>
+
+              {/* Discord CTA */}
+              <div className="mb-12">
+                <a
+                  href="https://discord.gg/XeZFQ6Jp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 bg-[#5865F2] hover:bg-[#4752C4] text-white font-bold py-4 px-8 rounded-full shadow-xl hover:scale-105 transition-all duration-300"
+                >
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z" />
+                  </svg>
+                  <span>Gabung Komunitas Discord MelekAI</span>
+                </a>
+                <p className="text-xs text-gray-400 mt-3">
+                  💬 Akses diskusi, sharing progress, dan referal klien dari
+                  10.000+ member
+                </p>
+              </div>
 
               {/* Registration Form */}
               <WebinarRegistrationForm />
 
               <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
                 <div className="bg-white/5 p-6 rounded-xl">
-                  <div className="text-3xl mb-3">🎓</div>
-                  <h4 className="font-bold text-white mb-2">Webinar Gratis</h4>
+                  <div className="text-3xl mb-3">🧠</div>
+                  <h4 className="font-bold text-white mb-2">Prompting Class</h4>
                   <p className="text-sm text-gray-300">
-                    Akses penuh ke semua materi fundamental prompting AI
+                    Modul, rekaman, dan template baru setiap minggu supaya
+                    prompt kamu makin presisi
                   </p>
                 </div>
                 <div className="bg-white/5 p-6 rounded-xl">
-                  <div className="text-3xl mb-3">💬</div>
-                  <h4 className="font-bold text-white mb-2">
-                    Komunitas Discord
-                  </h4>
+                  <div className="text-3xl mb-3">🧪</div>
+                  <h4 className="font-bold text-white mb-2">Kuliah AI</h4>
                   <p className="text-sm text-gray-300">
-                    Bergabung dengan 1000+ member untuk diskusi dan sharing
+                    Mentor bantu review notebook ML kamu hingga siap jadi
+                    portofolio
                   </p>
                 </div>
                 <div className="bg-white/5 p-6 rounded-xl">
-                  <div className="text-3xl mb-3">📜</div>
-                  <h4 className="font-bold text-white mb-2">
-                    Sertifikat Digital
-                  </h4>
+                  <div className="text-3xl mb-3">💸</div>
+                  <h4 className="font-bold text-white mb-2">Cuan AI</h4>
                   <p className="text-sm text-gray-300">
-                    Dapatkan sertifikat keikutsertaan yang bisa dipajang di
-                    LinkedIn
+                    Playbook monetisasi, accountability weekly, dan referal
+                    klien dari komunitas
                   </p>
                 </div>
               </div>
@@ -779,7 +788,8 @@ export default function HomePage() {
               <div className="mt-8 text-sm text-gray-400">
                 <p className="mb-2">
                   🔥 <strong className="text-purple-300">Terbatas!</strong>{" "}
-                  Hanya tersedia untuk 100 pendaftar pertama bulan ini
+                  Kuota paket lengkap Prompting Class + Kuliah AI + Cuan AI cuma
+                  100 kursi bulan ini
                 </p>
                 <p>
                   ⏰ Jadwal webinar akan dikirimkan maksimal 24 jam setelah

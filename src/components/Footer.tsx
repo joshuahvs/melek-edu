@@ -63,34 +63,34 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="#kursus"
+                    href="#webinar"
                     className="text-[#c0c0c0] hover:text-[#a529bb] transition-colors duration-300 hover:translate-x-1 inline-block"
                   >
-                    Dasar Prompting
+                    Prompting Class
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#kursus"
+                    href="#webinar"
                     className="text-[#c0c0c0] hover:text-[#a529bb] transition-colors duration-300 hover:translate-x-1 inline-block"
                   >
-                    Advanced Prompting
+                    Kuliah AI (Machine Learning)
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#kursus"
+                    href="#webinar"
                     className="text-[#c0c0c0] hover:text-[#a529bb] transition-colors duration-300 hover:translate-x-1 inline-block"
                   >
-                    Enterprise Program
+                    Cuan AI (Monetisasi Skill)
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#testimoni"
+                    href="#daftar-webinar"
                     className="text-[#c0c0c0] hover:text-[#a529bb] transition-colors duration-300 hover:translate-x-1 inline-block"
                   >
-                    Komunitas
+                    Komunitas & Referal Klien
                   </a>
                 </li>
               </ul>
