@@ -53,23 +53,8 @@ const WebinarRegistrationForm = () => {
     setIsSubmitting(true);
 
     try {
-      const googleScriptUrl = process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL;
-
-      // Check if Google Script URL is configured
-      if (!googleScriptUrl || googleScriptUrl.includes("YOUR_SCRIPT_ID")) {
-        console.log(
-          "Google Sheets integration not configured. Form data:",
-          formData
-        );
-        alert(
-          "Pendaftaran berhasil disimpan! (Demo mode - Google Sheets belum dikonfigurasi)"
-        );
-        setIsSubmitted(true);
-        return;
-      }
-
-      // Submit to Google Sheets via Google Apps Script
-      const response = await fetch(googleScriptUrl, {
+      // Submit to Next.js API route
+      const response = await fetch("/api/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -137,7 +122,7 @@ const WebinarRegistrationForm = () => {
         <p className="text-gray-300 mb-6">
           Terima kasih <strong>{formData.name}</strong>! Tim kami akan kirim
           jadwal Prompting Class, Kuliah AI, dan Cuan AI ke email serta WhatsApp
-          kamu.
+          kamu. Untuk sementara, kamu bisa bergabung kedalam grup discord kami.
         </p>
         <div className="bg-white/10 p-6 rounded-xl text-left">
           <h4 className="font-bold text-purple-300 mb-3">
@@ -158,7 +143,7 @@ const WebinarRegistrationForm = () => {
             </div>
           </div>
         </div>
-        <div className="mt-6 p-4 bg-purple-500/20 rounded-lg">
+        {/* <div className="mt-6 p-4 bg-purple-500/20 rounded-lg">
           <p className="text-sm text-purple-200">
             📅{" "}
             <strong>
@@ -169,7 +154,7 @@ const WebinarRegistrationForm = () => {
             Pastikan email dan nomor telepon Anda aktif untuk mendapatkan
             notifikasi
           </p>
-        </div>
+        </div> */}
       </div>
     );
   }
