@@ -17,6 +17,7 @@ export async function POST(req: Request) {
       spreadsheetId: process.env.GOOGLE_SHEETS_SPREADSHEET_ID,
       range: "Registrations!A:E",
       valueInputOption: "USER_ENTERED",
+      insertDataOption: "INSERT_ROWS",
       requestBody: {
         values: [[
           body.timestamp,
