@@ -735,7 +735,7 @@ export default function HomePage() {
               {/* Discord CTA */}
               <div className="mb-12">
                 <a
-                  href="https://discord.gg/XeZFQ6Jp"
+                  href="https://discord.gg/H6ChQJZvAW"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 bg-[#5865F2] hover:bg-[#4752C4] text-white font-bold py-4 px-8 rounded-full shadow-xl hover:scale-105 transition-all duration-300"
